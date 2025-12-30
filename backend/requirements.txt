@@ -1,0 +1,23 @@
+#Dépendances Python
+# Backend Dependencies for E-commerce Image Search Project
+
+# Web Framework
+Flask==3.0.0
+Flask-CORS==4.0.0
+
+# Deep Learning & Computer Vision
+tensorflow==2.15.0
+keras==2.15.0
+opencv-python==4.8.1.78
+Pillow==10.1.0
+
+# Data Processing
+numpy==1.24.3
+pandas==2.1.3
+
+# Similarity Search
+scikit-learn==1.3.2
+faiss-cpu==1.7.4
+
+# Utilities
+python-dotenv==1.0.0

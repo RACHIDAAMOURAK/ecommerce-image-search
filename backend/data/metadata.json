@@ -1,0 +1,760 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "name": "Bag #1",
+            "category": "bag",
+            "image_path": "C:/Users/ADMIN/Desktop/ecommerce-image-search/backend/data/products/bag/bag1.png",
+            "image_url": "/products/bag/bag1.png",
+            "price": "27.99 €",
+            "description": "Beautiful bag from Pinterest collection",
+            "in_stock": true
+        },
+        {
+            "id": 2,
+            "name": "Bag #2",
+            "category": "bag",
+            "image_path": "C:/Users/ADMIN/Desktop/ecommerce-image-search/backend/data/products/bag/bag2.png",
+            "image_url": "/products/bag/bag2.png",
+            "price": "34.99 €",
+            "description": "Beautiful bag from Pinterest collection",
+            "in_stock": true
+        },
+        {
+            "id": 3,
+            "name": "Bag #3",
+            "category": "bag",
+            "image_path": "C:/Users/ADMIN/Desktop/ecommerce-image-search/backend/data/products/bag/bag3.png",
+            "image_url": "/products/bag/bag3.png",
+            "price": "41.99 €",
+            "description": "Beautiful bag from Pinterest collection",
+            "in_stock": true
+        },
+        {
+            "id": 4,
+            "name": "Bag #4",
+            "category": "bag",
+            "image_path": "C:/Users/ADMIN/Desktop/ecommerce-image-search/backend/data/products/bag/bag4.png",
+            "image_url": "/products/bag/bag4.png",
+            "price": "48.99 €",
+            "description": "Beautiful bag from Pinterest collection",
+            "in_stock": true
+        },
+        {
+            "id": 5,
+            "name": "Bag #5",
+            "category": "bag",
+            "image_path": "C:/Users/ADMIN/Desktop/ecommerce-image-search/backend/data/products/bag/bag5.png",
+            "image_url": "/products/bag/bag5.png",
+            "price": "55.99 €",
+            "description": "Beautiful bag from Pinterest collection",
+            "in_stock": true
+        },
+        {
+            "id": 6,
+            "name": "Bag #6",
+            "category": "bag",
+            "image_path": "C:/Users/ADMIN/Desktop/ecommerce-image-search/backend/data/products/bag/bag6.png",
+            "image_url": "/products/bag/bag6.png",
+            "price": "62.99 €",
+            "description": "Beautiful bag from Pinterest collection",
+            "in_stock": true
+        },
+        {
+            "id": 7,
+            "name": "Bag #7",
+            "category": "bag",
+            "image_path": "C:/Users/ADMIN/Desktop/ecommerce-image-search/backend/data/products/bag/bag7.png",
+            "image_url": "/products/bag/bag7.png",
+            "price": "69.99 €",
+            "description": "Beautiful bag from Pinterest collection",
+            "in_stock": true
+        },
+        {
+            "id": 8,
+            "name": "Bag #8",
+            "category": "bag",
+            "image_path": "C:/Users/ADMIN/Desktop/ecommerce-image-search/backend/data/products/bag/bag8.png",
+            "image_url": "/products/bag/bag8.png",
+            "price": "76.99 €",
+            "description": "Beautiful bag from Pinterest collection",
+            "in_stock": true
+        },
+        {
+            "id": 9,
+            "name": "Boot #9",
+            "category": "boot",
+            "image_path": "C:/Users/ADMIN/Desktop/ecommerce-image-search/backend/data/products/boot/boot1.png",
+            "image_url": "/products/boot/boot1.png",
+            "price": "83.99 €",
+            "description": "Beautiful boot from Pinterest collection",
+            "in_stock": true
+        },
+        {
+            "id": 10,
+            "name": "Boot #10",
+            "category": "boot",
+            "image_path": "C:/Users/ADMIN/Desktop/ecommerce-image-search/backend/data/products/boot/boot2.png",
+            "image_url": "/products/boot/boot2.png",
+            "price": "90.99 €",
+            "description": "Beautiful boot from Pinterest collection",
+            "in_stock": true
+        },
+        {
+            "id": 11,
+            "name": "Boot #11",
+            "category": "boot",
+            "image_path": "C:/Users/ADMIN/Desktop/ecommerce-image-search/backend/data/products/boot/boot3.png",
+            "image_url": "/products/boot/boot3.png",
+            "price": "97.99 €",
+            "description": "Beautiful boot from Pinterest collection",
+            "in_stock": true
+        },
+        {
+            "id": 12,
+            "name": "Boot #12",
+            "category": "boot",
+            "image_path": "C:/Users/ADMIN/Desktop/ecommerce-image-search/backend/data/products/boot/boot4.png",
+            "image_url": "/products/boot/boot4.png",
+            "price": "104.99 €",
+            "description": "Beautiful boot from Pinterest collection",
+            "in_stock": true
+        },
+        {
+            "id": 13,
+            "name": "Boot #13",
+            "category": "boot",
+            "image_path": "C:/Users/ADMIN/Desktop/ecommerce-image-search/backend/data/products/boot/boot5.png",
+            "image_url": "/products/boot/boot5.png",
+            "price": "111.99 €",
+            "description": "Beautiful boot from Pinterest collection",
+            "in_stock": true
+        },
+        {
+            "id": 14,
+            "name": "Boot #14",
+            "category": "boot",
+            "image_path": "C:/Users/ADMIN/Desktop/ecommerce-image-search/backend/data/products/boot/boot6.png",
+            "image_url": "/products/boot/boot6.png",
+            "price": "118.99 €",
+            "description": "Beautiful boot from Pinterest collection",
+            "in_stock": true
+        },
+        {
+            "id": 15,
+            "name": "Coat #15",
+            "category": "coat",
+            "image_path": "C:/Users/ADMIN/Desktop/ecommerce-image-search/backend/data/products/coat/coat1.png",
+            "image_url": "/products/coat/coat1.png",
+            "price": "125.99 €",
+            "description": "Beautiful coat from Pinterest collection",
+            "in_stock": true
+        },
+        {
+            "id": 16,
+            "name": "Coat #16",
+            "category": "coat",
+            "image_path": "C:/Users/ADMIN/Desktop/ecommerce-image-search/backend/data/products/coat/coat2.png",
+            "image_url": "/products/coat/coat2.png",
+            "price": "132.99 €",
+            "description": "Beautiful coat from Pinterest collection",
+            "in_stock": true
+        },
+        {
+            "id": 17,
+            "name": "Coat #17",
+            "category": "coat",
+            "image_path": "C:/Users/ADMIN/Desktop/ecommerce-image-search/backend/data/products/coat/coat3.png",
+            "image_url": "/products/coat/coat3.png",
+            "price": "139.99 €",
+            "description": "Beautiful coat from Pinterest collection",
+            "in_stock": true
+        },
+        {
+            "id": 18,
+            "name": "Coat #18",
+            "category": "coat",
+            "image_path": "C:/Users/ADMIN/Desktop/ecommerce-image-search/backend/data/products/coat/coat4.png",
+            "image_url": "/products/coat/coat4.png",
+            "price": "146.99 €",
+            "description": "Beautiful coat from Pinterest collection",
+            "in_stock": true
+        },
+        {
+            "id": 19,
+            "name": "Coat #19",
+            "category": "coat",
+            "image_path": "C:/Users/ADMIN/Desktop/ecommerce-image-search/backend/data/products/coat/coat5.png",
+            "image_url": "/products/coat/coat5.png",
+            "price": "153.99 €",
+            "description": "Beautiful coat from Pinterest collection",
+            "in_stock": true
+        },
+        {
+            "id": 20,
+            "name": "Coat #20",
+            "category": "coat",
+            "image_path": "C:/Users/ADMIN/Desktop/ecommerce-image-search/backend/data/products/coat/coat6.png",
+            "image_url": "/products/coat/coat6.png",
+            "price": "160.99 €",
+            "description": "Beautiful coat from Pinterest collection",
+            "in_stock": true
+        },
+        {
+            "id": 21,
+            "name": "Coat #21",
+            "category": "coat",
+            "image_path": "C:/Users/ADMIN/Desktop/ecommerce-image-search/backend/data/products/coat/coat7.png",
+            "image_url": "/products/coat/coat7.png",
+            "price": "167.99 €",
+            "description": "Beautiful coat from Pinterest collection",
+            "in_stock": true
+        },
+        {
+            "id": 22,
+            "name": "Coat #22",
+            "category": "coat",
+            "image_path": "C:/Users/ADMIN/Desktop/ecommerce-image-search/backend/data/products/coat/coat8.png",
+            "image_url": "/products/coat/coat8.png",
+            "price": "174.99 €",
+            "description": "Beautiful coat from Pinterest collection",
+            "in_stock": true
+        },
+        {
+            "id": 23,
+            "name": "Dress #23",
+            "category": "dress",
+            "image_path": "C:/Users/ADMIN/Desktop/ecommerce-image-search/backend/data/products/dress/dress1.png",
+            "image_url": "/products/dress/dress1.png",
+            "price": "181.99 €",
+            "description": "Beautiful dress from Pinterest collection",
+            "in_stock": true
+        },
+        {
+            "id": 24,
+            "name": "Dress #24",
+            "category": "dress",
+            "image_path": "C:/Users/ADMIN/Desktop/ecommerce-image-search/backend/data/products/dress/dress2.png",
+            "image_url": "/products/dress/dress2.png",
+            "price": "188.99 €",
+            "description": "Beautiful dress from Pinterest collection",
+            "in_stock": true
+        },
+        {
+            "id": 25,
+            "name": "Dress #25",
+            "category": "dress",
+            "image_path": "C:/Users/ADMIN/Desktop/ecommerce-image-search/backend/data/products/dress/dress3.png",
+            "image_url": "/products/dress/dress3.png",
+            "price": "195.99 €",
+            "description": "Beautiful dress from Pinterest collection",
+            "in_stock": true
+        },
+        {
+            "id": 26,
+            "name": "Dress #26",
+            "category": "dress",
+            "image_path": "C:/Users/ADMIN/Desktop/ecommerce-image-search/backend/data/products/dress/dress4.png",
+            "image_url": "/products/dress/dress4.png",
+            "price": "22.99 €",
+            "description": "Beautiful dress from Pinterest collection",
+            "in_stock": true
+        },
+        {
+            "id": 27,
+            "name": "Dress #27",
+            "category": "dress",
+            "image_path": "C:/Users/ADMIN/Desktop/ecommerce-image-search/backend/data/products/dress/dress5.png",
+            "image_url": "/products/dress/dress5.png",
+            "price": "29.99 €",
+            "description": "Beautiful dress from Pinterest collection",
+            "in_stock": true
+        },
+        {
+            "id": 28,
+            "name": "Hoodie #28",
+            "category": "hoodie",
+            "image_path": "C:/Users/ADMIN/Desktop/ecommerce-image-search/backend/data/products/hoodie/hoodie1.png",
+            "image_url": "/products/hoodie/hoodie1.png",
+            "price": "36.99 €",
+            "description": "Beautiful hoodie from Pinterest collection",
+            "in_stock": true
+        },
+        {
+            "id": 29,
+            "name": "Hoodie #29",
+            "category": "hoodie",
+            "image_path": "C:/Users/ADMIN/Desktop/ecommerce-image-search/backend/data/products/hoodie/hoodie2.png",
+            "image_url": "/products/hoodie/hoodie2.png",
+            "price": "43.99 €",
+            "description": "Beautiful hoodie from Pinterest collection",
+            "in_stock": true
+        },
+        {
+            "id": 30,
+            "name": "Hoodie #30",
+            "category": "hoodie",
+            "image_path": "C:/Users/ADMIN/Desktop/ecommerce-image-search/backend/data/products/hoodie/hoodie3.png",
+            "image_url": "/products/hoodie/hoodie3.png",
+            "price": "50.99 €",
+            "description": "Beautiful hoodie from Pinterest collection",
+            "in_stock": true
+        },
+        {
+            "id": 31,
+            "name": "Hoodie #31",
+            "category": "hoodie",
+            "image_path": "C:/Users/ADMIN/Desktop/ecommerce-image-search/backend/data/products/hoodie/hoodie4.png",
+            "image_url": "/products/hoodie/hoodie4.png",
+            "price": "57.99 €",
+            "description": "Beautiful hoodie from Pinterest collection",
+            "in_stock": true
+        },
+        {
+            "id": 32,
+            "name": "Hoodie #32",
+            "category": "hoodie",
+            "image_path": "C:/Users/ADMIN/Desktop/ecommerce-image-search/backend/data/products/hoodie/hoodie5.png",
+            "image_url": "/products/hoodie/hoodie5.png",
+            "price": "64.99 €",
+            "description": "Beautiful hoodie from Pinterest collection",
+            "in_stock": true
+        },
+        {
+            "id": 33,
+            "name": "Pullover #33",
+            "category": "pullover",
+            "image_path": "C:/Users/ADMIN/Desktop/ecommerce-image-search/backend/data/products/pullover/pullover1.png",
+            "image_url": "/products/pullover/pullover1.png",
+            "price": "71.99 €",
+            "description": "Beautiful pullover from Pinterest collection",
+            "in_stock": true
+        },
+        {
+            "id": 34,
+            "name": "Pullover #34",
+            "category": "pullover",
+            "image_path": "C:/Users/ADMIN/Desktop/ecommerce-image-search/backend/data/products/pullover/pullover2.png",
+            "image_url": "/products/pullover/pullover2.png",
+            "price": "78.99 €",
+            "description": "Beautiful pullover from Pinterest collection",
+            "in_stock": true
+        },
+        {
+            "id": 35,
+            "name": "Pullover #35",
+            "category": "pullover",
+            "image_path": "C:/Users/ADMIN/Desktop/ecommerce-image-search/backend/data/products/pullover/pullover3.png",
+            "image_url": "/products/pullover/pullover3.png",
+            "price": "85.99 €",
+            "description": "Beautiful pullover from Pinterest collection",
+            "in_stock": true
+        },
+        {
+            "id": 36,
+            "name": "Pullover #36",
+            "category": "pullover",
+            "image_path": "C:/Users/ADMIN/Desktop/ecommerce-image-search/backend/data/products/pullover/pullover4.png",
+            "image_url": "/products/pullover/pullover4.png",
+            "price": "92.99 €",
+            "description": "Beautiful pullover from Pinterest collection",
+            "in_stock": true
+        },
+        {
+            "id": 37,
+            "name": "Pullover #37",
+            "category": "pullover",
+            "image_path": "C:/Users/ADMIN/Desktop/ecommerce-image-search/backend/data/products/pullover/pullover5.png",
+            "image_url": "/products/pullover/pullover5.png",
+            "price": "99.99 €",
+            "description": "Beautiful pullover from Pinterest collection",
+            "in_stock": true
+        },
+        {
+            "id": 38,
+            "name": "Pullover #38",
+            "category": "pullover",
+            "image_path": "C:/Users/ADMIN/Desktop/ecommerce-image-search/backend/data/products/pullover/pullover6.png",
+            "image_url": "/products/pullover/pullover6.png",
+            "price": "106.99 €",
+            "description": "Beautiful pullover from Pinterest collection",
+            "in_stock": true
+        },
+        {
+            "id": 39,
+            "name": "Pullover #39",
+            "category": "pullover",
+            "image_path": "C:/Users/ADMIN/Desktop/ecommerce-image-search/backend/data/products/pullover/pullover7.png",
+            "image_url": "/products/pullover/pullover7.png",
+            "price": "113.99 €",
+            "description": "Beautiful pullover from Pinterest collection",
+            "in_stock": true
+        },
+        {
+            "id": 40,
+            "name": "Sandal #40",
+            "category": "sandal",
+            "image_path": "C:/Users/ADMIN/Desktop/ecommerce-image-search/backend/data/products/sandal/sandal1.png",
+            "image_url": "/products/sandal/sandal1.png",
+            "price": "120.99 €",
+            "description": "Beautiful sandal from Pinterest collection",
+            "in_stock": true
+        },
+        {
+            "id": 41,
+            "name": "Sandal #41",
+            "category": "sandal",
+            "image_path": "C:/Users/ADMIN/Desktop/ecommerce-image-search/backend/data/products/sandal/sandal10.png",
+            "image_url": "/products/sandal/sandal10.png",
+            "price": "127.99 €",
+            "description": "Beautiful sandal from Pinterest collection",
+            "in_stock": true
+        },
+        {
+            "id": 42,
+            "name": "Sandal #42",
+            "category": "sandal",
+            "image_path": "C:/Users/ADMIN/Desktop/ecommerce-image-search/backend/data/products/sandal/sandal2.png",
+            "image_url": "/products/sandal/sandal2.png",
+            "price": "134.99 €",
+            "description": "Beautiful sandal from Pinterest collection",
+            "in_stock": true
+        },
+        {
+            "id": 43,
+            "name": "Sandal #43",
+            "category": "sandal",
+            "image_path": "C:/Users/ADMIN/Desktop/ecommerce-image-search/backend/data/products/sandal/sandal3.png",
+            "image_url": "/products/sandal/sandal3.png",
+            "price": "141.99 €",
+            "description": "Beautiful sandal from Pinterest collection",
+            "in_stock": true
+        },
+        {
+            "id": 44,
+            "name": "Sandal #44",
+            "category": "sandal",
+            "image_path": "C:/Users/ADMIN/Desktop/ecommerce-image-search/backend/data/products/sandal/sandal4.png",
+            "image_url": "/products/sandal/sandal4.png",
+            "price": "148.99 €",
+            "description": "Beautiful sandal from Pinterest collection",
+            "in_stock": true
+        },
+        {
+            "id": 45,
+            "name": "Sandal #45",
+            "category": "sandal",
+            "image_path": "C:/Users/ADMIN/Desktop/ecommerce-image-search/backend/data/products/sandal/sandal5.png",
+            "image_url": "/products/sandal/sandal5.png",
+            "price": "155.99 €",
+            "description": "Beautiful sandal from Pinterest collection",
+            "in_stock": true
+        },
+        {
+            "id": 46,
+            "name": "Sandal #46",
+            "category": "sandal",
+            "image_path": "C:/Users/ADMIN/Desktop/ecommerce-image-search/backend/data/products/sandal/sandal6.png",
+            "image_url": "/products/sandal/sandal6.png",
+            "price": "162.99 €",
+            "description": "Beautiful sandal from Pinterest collection",
+            "in_stock": true
+        },
+        {
+            "id": 47,
+            "name": "Sandal #47",
+            "category": "sandal",
+            "image_path": "C:/Users/ADMIN/Desktop/ecommerce-image-search/backend/data/products/sandal/sandal7.png",
+            "image_url": "/products/sandal/sandal7.png",
+            "price": "169.99 €",
+            "description": "Beautiful sandal from Pinterest collection",
+            "in_stock": true
+        },
+        {
+            "id": 48,
+            "name": "Sandal #48",
+            "category": "sandal",
+            "image_path": "C:/Users/ADMIN/Desktop/ecommerce-image-search/backend/data/products/sandal/sandal8.png",
+            "image_url": "/products/sandal/sandal8.png",
+            "price": "176.99 €",
+            "description": "Beautiful sandal from Pinterest collection",
+            "in_stock": true
+        },
+        {
+            "id": 49,
+            "name": "Sandal #49",
+            "category": "sandal",
+            "image_path": "C:/Users/ADMIN/Desktop/ecommerce-image-search/backend/data/products/sandal/sandal9.png",
+            "image_url": "/products/sandal/sandal9.png",
+            "price": "183.99 €",
+            "description": "Beautiful sandal from Pinterest collection",
+            "in_stock": true
+        },
+        {
+            "id": 50,
+            "name": "Shirt #50",
+            "category": "shirt",
+            "image_path": "C:/Users/ADMIN/Desktop/ecommerce-image-search/backend/data/products/shirt/shirt1.png",
+            "image_url": "/products/shirt/shirt1.png",
+            "price": "190.99 €",
+            "description": "Beautiful shirt from Pinterest collection",
+            "in_stock": true
+        },
+        {
+            "id": 51,
+            "name": "Shirt #51",
+            "category": "shirt",
+            "image_path": "C:/Users/ADMIN/Desktop/ecommerce-image-search/backend/data/products/shirt/shirt2.png",
+            "image_url": "/products/shirt/shirt2.png",
+            "price": "197.99 €",
+            "description": "Beautiful shirt from Pinterest collection",
+            "in_stock": true
+        },
+        {
+            "id": 52,
+            "name": "Shirt #52",
+            "category": "shirt",
+            "image_path": "C:/Users/ADMIN/Desktop/ecommerce-image-search/backend/data/products/shirt/shirt3.png",
+            "image_url": "/products/shirt/shirt3.png",
+            "price": "24.99 €",
+            "description": "Beautiful shirt from Pinterest collection",
+            "in_stock": true
+        },
+        {
+            "id": 53,
+            "name": "Shirt #53",
+            "category": "shirt",
+            "image_path": "C:/Users/ADMIN/Desktop/ecommerce-image-search/backend/data/products/shirt/shirt4.png",
+            "image_url": "/products/shirt/shirt4.png",
+            "price": "31.99 €",
+            "description": "Beautiful shirt from Pinterest collection",
+            "in_stock": true
+        },
+        {
+            "id": 54,
+            "name": "Shirt #54",
+            "category": "shirt",
+            "image_path": "C:/Users/ADMIN/Desktop/ecommerce-image-search/backend/data/products/shirt/shirt5.png",
+            "image_url": "/products/shirt/shirt5.png",
+            "price": "38.99 €",
+            "description": "Beautiful shirt from Pinterest collection",
+            "in_stock": true
+        },
+        {
+            "id": 55,
+            "name": "Shoes #55",
+            "category": "shoes",
+            "image_path": "C:/Users/ADMIN/Desktop/ecommerce-image-search/backend/data/products/shoes/shoes1.png",
+            "image_url": "/products/shoes/shoes1.png",
+            "price": "45.99 €",
+            "description": "Beautiful shoes from Pinterest collection",
+            "in_stock": true
+        },
+        {
+            "id": 56,
+            "name": "Skirt #56",
+            "category": "skirt",
+            "image_path": "C:/Users/ADMIN/Desktop/ecommerce-image-search/backend/data/products/skirt/skirt1.png",
+            "image_url": "/products/skirt/skirt1.png",
+            "price": "52.99 €",
+            "description": "Beautiful skirt from Pinterest collection",
+            "in_stock": true
+        },
+        {
+            "id": 57,
+            "name": "Skirt #57",
+            "category": "skirt",
+            "image_path": "C:/Users/ADMIN/Desktop/ecommerce-image-search/backend/data/products/skirt/skirt2.png",
+            "image_url": "/products/skirt/skirt2.png",
+            "price": "59.99 €",
+            "description": "Beautiful skirt from Pinterest collection",
+            "in_stock": true
+        },
+        {
+            "id": 58,
+            "name": "Sneaker #58",
+            "category": "sneaker",
+            "image_path": "C:/Users/ADMIN/Desktop/ecommerce-image-search/backend/data/products/sneaker/sneaker1.png",
+            "image_url": "/products/sneaker/sneaker1.png",
+            "price": "66.99 €",
+            "description": "Beautiful sneaker from Pinterest collection",
+            "in_stock": true
+        },
+        {
+            "id": 59,
+            "name": "Sneaker #59",
+            "category": "sneaker",
+            "image_path": "C:/Users/ADMIN/Desktop/ecommerce-image-search/backend/data/products/sneaker/sneaker2.png",
+            "image_url": "/products/sneaker/sneaker2.png",
+            "price": "73.99 €",
+            "description": "Beautiful sneaker from Pinterest collection",
+            "in_stock": true
+        },
+        {
+            "id": 60,
+            "name": "Sneaker #60",
+            "category": "sneaker",
+            "image_path": "C:/Users/ADMIN/Desktop/ecommerce-image-search/backend/data/products/sneaker/sneaker3.png",
+            "image_url": "/products/sneaker/sneaker3.png",
+            "price": "80.99 €",
+            "description": "Beautiful sneaker from Pinterest collection",
+            "in_stock": true
+        },
+        {
+            "id": 61,
+            "name": "Sneaker #61",
+            "category": "sneaker",
+            "image_path": "C:/Users/ADMIN/Desktop/ecommerce-image-search/backend/data/products/sneaker/sneaker4.png",
+            "image_url": "/products/sneaker/sneaker4.png",
+            "price": "87.99 €",
+            "description": "Beautiful sneaker from Pinterest collection",
+            "in_stock": true
+        },
+        {
+            "id": 62,
+            "name": "Sneaker #62",
+            "category": "sneaker",
+            "image_path": "C:/Users/ADMIN/Desktop/ecommerce-image-search/backend/data/products/sneaker/sneaker5.png",
+            "image_url": "/products/sneaker/sneaker5.png",
+            "price": "94.99 €",
+            "description": "Beautiful sneaker from Pinterest collection",
+            "in_stock": true
+        },
+        {
+            "id": 63,
+            "name": "Trouser #63",
+            "category": "trouser",
+            "image_path": "C:/Users/ADMIN/Desktop/ecommerce-image-search/backend/data/products/trouser/trouser1.png",
+            "image_url": "/products/trouser/trouser1.png",
+            "price": "101.99 €",
+            "description": "Beautiful trouser from Pinterest collection",
+            "in_stock": true
+        },
+        {
+            "id": 64,
+            "name": "Trouser #64",
+            "category": "trouser",
+            "image_path": "C:/Users/ADMIN/Desktop/ecommerce-image-search/backend/data/products/trouser/trouser2.png",
+            "image_url": "/products/trouser/trouser2.png",
+            "price": "108.99 €",
+            "description": "Beautiful trouser from Pinterest collection",
+            "in_stock": true
+        },
+        {
+            "id": 65,
+            "name": "Trouser #65",
+            "category": "trouser",
+            "image_path": "C:/Users/ADMIN/Desktop/ecommerce-image-search/backend/data/products/trouser/trouser3.png",
+            "image_url": "/products/trouser/trouser3.png",
+            "price": "115.99 €",
+            "description": "Beautiful trouser from Pinterest collection",
+            "in_stock": true
+        },
+        {
+            "id": 66,
+            "name": "Trouser #66",
+            "category": "trouser",
+            "image_path": "C:/Users/ADMIN/Desktop/ecommerce-image-search/backend/data/products/trouser/trouser4.png",
+            "image_url": "/products/trouser/trouser4.png",
+            "price": "122.99 €",
+            "description": "Beautiful trouser from Pinterest collection",
+            "in_stock": true
+        },
+        {
+            "id": 67,
+            "name": "Trouser #67",
+            "category": "trouser",
+            "image_path": "C:/Users/ADMIN/Desktop/ecommerce-image-search/backend/data/products/trouser/trouser5.png",
+            "image_url": "/products/trouser/trouser5.png",
+            "price": "129.99 €",
+            "description": "Beautiful trouser from Pinterest collection",
+            "in_stock": true
+        },
+        {
+            "id": 68,
+            "name": "Trouser #68",
+            "category": "trouser",
+            "image_path": "C:/Users/ADMIN/Desktop/ecommerce-image-search/backend/data/products/trouser/trouser6.png",
+            "image_url": "/products/trouser/trouser6.png",
+            "price": "136.99 €",
+            "description": "Beautiful trouser from Pinterest collection",
+            "in_stock": true
+        },
+        {
+            "id": 69,
+            "name": "Tshirt #69",
+            "category": "tshirt",
+            "image_path": "C:/Users/ADMIN/Desktop/ecommerce-image-search/backend/data/products/tshirt/tshirt1.png",
+            "image_url": "/products/tshirt/tshirt1.png",
+            "price": "143.99 €",
+            "description": "Beautiful tshirt from Pinterest collection",
+            "in_stock": true
+        },
+        {
+            "id": 70,
+            "name": "Tshirt #70",
+            "category": "tshirt",
+            "image_path": "C:/Users/ADMIN/Desktop/ecommerce-image-search/backend/data/products/tshirt/tshirt2.png",
+            "image_url": "/products/tshirt/tshirt2.png",
+            "price": "150.99 €",
+            "description": "Beautiful tshirt from Pinterest collection",
+            "in_stock": true
+        },
+        {
+            "id": 71,
+            "name": "Tshirt #71",
+            "category": "tshirt",
+            "image_path": "C:/Users/ADMIN/Desktop/ecommerce-image-search/backend/data/products/tshirt/tshirt3.png",
+            "image_url": "/products/tshirt/tshirt3.png",
+            "price": "157.99 €",
+            "description": "Beautiful tshirt from Pinterest collection",
+            "in_stock": true
+        },
+        {
+            "id": 72,
+            "name": "Tshirt #72",
+            "category": "tshirt",
+            "image_path": "C:/Users/ADMIN/Desktop/ecommerce-image-search/backend/data/products/tshirt/tshirt4.png",
+            "image_url": "/products/tshirt/tshirt4.png",
+            "price": "164.99 €",
+            "description": "Beautiful tshirt from Pinterest collection",
+            "in_stock": true
+        },
+        {
+            "id": 73,
+            "name": "Tshirt #73",
+            "category": "tshirt",
+            "image_path": "C:/Users/ADMIN/Desktop/ecommerce-image-search/backend/data/products/tshirt/tshirt5.png",
+            "image_url": "/products/tshirt/tshirt5.png",
+            "price": "171.99 €",
+            "description": "Beautiful tshirt from Pinterest collection",
+            "in_stock": true
+        },
+        {
+            "id": 74,
+            "name": "Tshirt #74",
+            "category": "tshirt",
+            "image_path": "C:/Users/ADMIN/Desktop/ecommerce-image-search/backend/data/products/tshirt/tshirt6.png",
+            "image_url": "/products/tshirt/tshirt6.png",
+            "price": "178.99 €",
+            "description": "Beautiful tshirt from Pinterest collection",
+            "in_stock": true
+        }
+    ],
+    "categories": [
+        "bag",
+        "boot",
+        "coat",
+        "dress",
+        "hoodie",
+        "pullover",
+        "sandal",
+        "shirt",
+        "shoes",
+        "skirt",
+        "sneaker",
+        "trouser",
+        "tshirt"
+    ],
+    "total_products": 74
+}

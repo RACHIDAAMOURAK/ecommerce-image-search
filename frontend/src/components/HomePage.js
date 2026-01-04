@@ -21,7 +21,7 @@ function HomePage() {
       }
     } catch (error) {
       console.error('Error loading products:', error);
-      alert('Erreur lors du chargement des produits');
+      alert('Error while loading products');
     } finally {
       setLoading(false);
     }
@@ -31,22 +31,22 @@ function HomePage() {
     <div className="homepage">
       <header className="header">
         <h1>🛍️ E-Commerce Image Search</h1>
-        <p className="tagline">Trouvez vos produits préférés en un clic</p>
+        <p className="tagline">Find your favorite products in one click</p>
       </header>
 
       <ImageSearch />
 
       <section className="random-products-section">
         <div className="section-header">
-          <h2>Découvrez nos produits</h2>
-          <p>Une sélection aléatoire pour vous inspirer</p>
+          <h2>Discover Our Products</h2>
+          <p>A random selection to inspire you</p>
           <button onClick={loadRandomProducts} className="refresh-btn" disabled={loading}>
-            🔄 {loading ? 'Chargement...' : 'Rafraîchir'}
+            🔄 {loading ? 'Loading...' : 'Refresh'}
           </button>
         </div>
         
         {loading ? (
-          <div className="loading">Chargement des produits...</div>
+          <div className="loading">Loading products...</div>
         ) : (
           <div className="products-grid">
             {randomProducts.map((product) => (
@@ -57,7 +57,7 @@ function HomePage() {
       </section>
 
       <footer className="footer">
-        <p>© 2025 E-Commerce Image Search - Projet Mini Data Science</p>
+        <p>© 2025 E-Commerce Image Search - Data Science Project</p>
       </footer>
     </div>
   );

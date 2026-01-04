@@ -216,6 +216,85 @@ def serve_preprocessed_image(filename):
     preprocessed_dir = os.path.join(Config.DATA_DIR, 'products')
     return send_from_directory(preprocessed_dir, filename)
 
+
+
+
+@app.route('/api/search/text', methods=['GET'])
+def search_by_text():
+    """
+    Rechercher des produits par texte (nom, catégorie, description)
+    Query params: query (string)
+    """
+    query = request.args.get('query', '').strip().lower()
+    
+    if not query:
+        return jsonify({'error': 'Query parameter is required'}), 400
+    
+    try:
+        # Rechercher dans les produits
+        results = []
+        
+        for product in products_metadata['products']:
+            # Rechercher dans: nom, catégorie, description
+            searchable_text = (
+                product.get('name', '').lower() + ' ' +
+                product.get('category', '').lower() + ' ' +
+                product.get('description', '').lower()
+            )
+            
+            # Si la requête est dans le texte recherchable
+            if query in searchable_text:
+                product_copy = product.copy()
+                
+                # Ajouter l'URL de l'image
+                img_path = product_copy['image_path']
+                
+                if 'data\\products\\' in img_path or 'data/products/' in img_path:
+                    relative_path = img_path.split('data\\products\\')[-1].replace('\\', '/')
+                    if 'data/products/' in img_path:
+                        relative_path = img_path.split('data/products/')[-1]
+                    product_copy['image_url'] = f'/images/products/{relative_path}'
+                elif 'data\\preprocessed\\' in img_path or 'data/preprocessed/' in img_path:
+                    relative_path = img_path.split('data\\preprocessed\\')[-1].replace('\\', '/')
+                    if 'data/preprocessed/' in img_path:
+                        relative_path = img_path.split('data/preprocessed/')[-1]
+                    product_copy['image_url'] = f'/images/preprocessed/{relative_path}'
+                
+                results.append(product_copy)
+        
+        # Limiter à 20 résultats
+        results = results[:20]
+        
+        return jsonify({
+            'success': True,
+            'count': len(results),
+            'query': query,
+            'results': results
+        })
+    
+    except Exception as e:
+        return jsonify({'error': str(e)}), 500
+
+
+@app.route('/api/categories', methods=['GET'])
+def get_categories():
+    """
+    Retourner toutes les catégories disponibles
+    """
+    categories = list(set([p['category'] for p in products_metadata['products']]))
+    categories.sort()
+    
+    return jsonify({
+        'success': True,
+        'count': len(categories),
+        'categories': categories
+    })
+
+
+
+
+
+
 if __name__ == '__main__':
     print("\n" + "="*60)
     print("🚀 Serveur Flask démarré !")

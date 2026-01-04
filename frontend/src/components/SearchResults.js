@@ -7,28 +7,28 @@ function SearchResults({ results, queryImage, onBackToHome }) {
       {/* Header */}
       <header className="results-header">
         <button onClick={onBackToHome} className="back-button">
-          ← Retour
+          ← Back
         </button>
-        <h1>Résultats de recherche</h1>
+        <h1>Search Results</h1>
       </header>
 
-      {/* Image de requête */}
+      {/* Query image */}
       <section className="query-section">
-        <h2>Votre image</h2>
+        <h2>Your Image</h2>
         <div className="query-image-container">
           <img src={queryImage} alt="Query" className="query-image" />
         </div>
       </section>
 
-      {/* Résultats */}
+      {/* Results */}
       <section className="results-section">
-        <h2>Produits similaires ({results.length})</h2>
+        <h2>Similar Products ({results.length})</h2>
         
         {results.length === 0 ? (
           <div className="no-results">
-            <p>Aucun produit similaire trouvé 😔</p>
+            <p>No similar products found 😔</p>
             <button onClick={onBackToHome} className="try-again-btn">
-              Essayer une autre image
+              Try another image
             </button>
           </div>
         ) : (

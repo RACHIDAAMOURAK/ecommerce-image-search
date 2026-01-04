@@ -4,7 +4,13 @@ import './ProductCard.css';
 function ProductCard({ product }) {
   // URL de l'image depuis le backend
   const imageUrl = `http://localhost:5000${product.image_url}`;
-  
+
+  // Replace "from Pinterest collection" with "from our collection" in the description
+  const modifiedDescription = product.description.replace(
+    'Pinterest',
+    'our'
+  );
+
   return (
     <div className="product-card">
       <div className="product-image-container">
@@ -28,7 +34,7 @@ function ProductCard({ product }) {
           {product.category}
         </div>
         
-        <h3 className="product-name">{product.name}</h3>
+        <h3 className="product-description">{modifiedDescription}</h3>
         
         <p className="product-price">{product.price}</p>
         
